@@ -1,7 +1,7 @@
 function greetUser(name) {
 
     if (!name) {
-        name = "Guest"
+        name = "Guest";
     }
     return "Hello, " + name.toUpperCase();
 }
@@ -9,3 +9,4 @@ function greetUser(name) {
 console.log(greetUser("john"));
 console.log(greetUser(""));
 console.log(greetUser(null));
+console.log("Greeting function updated");
